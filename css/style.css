@@ -38,7 +38,11 @@ div {
 .links > li {
 	display: inline-block;
 	margin-right: 1em;
+}
+
+.top-navigation .links a {
 	color: #838994;
+	text-decoration: none;
 }
 
 .links {
@@ -47,13 +51,51 @@ div {
 	float: right;
 }
 
-.top-navigation .links .active {
+.top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
 }
 
-.top-navigation .links li:hover {
+.top-navigation .links a:hover {
     cursor: pointer;
-    color: #333333;
+    color:  #333333;
+}
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 42rem;
+	background-position: center bottom;
+}
+
+.content {
+	text-align: center;
+	padding-top: 13rem;
+	color: white;
+	font-weight: normal; 
+}
+
+.content > h1, h3 {
+	font-weight: lighter;
+}
+
+.content > h1 {
+	font-size: 3rem;
+	margin-bottom: 0.1em;
+}
+
+.content > h3 {
+	font-size: 1.5rem;
+}
+
+button {
+	border-style: none;
+	background-color: #f15a29;
+	border-radius: 4px;
+	font-size: 1.125rem;
+	color: white;
+	padding: 1rem 1.5rem;
+	line-height: 1.33;
 }
  
