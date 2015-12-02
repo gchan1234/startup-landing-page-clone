@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
@@ -15,11 +15,14 @@ body {
 }
 
 div {
-	border: 1px solid Chocolate;
+	/*border: 1px solid Chocolate;*/
 }
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -32,7 +35,8 @@ div {
 .logo {
 	height: 4.375rem;
 	padding-top: 0.7px;
-	margin-left: 3.5em;
+	margin-left: 3em;
+	float: left;
 }
 
 .links > li {
@@ -72,17 +76,17 @@ div {
 .content {
 	text-align: center;
 	padding-top: 13rem;
-	color: white;
-	font-weight: normal; 
 }
 
 .content > h1, h3 {
 	font-weight: lighter;
+	color: white; 
 }
 
 .content > h1 {
 	font-size: 3rem;
 	margin-bottom: 0.1em;
+	font-weight: lighter;
 }
 
 .content > h3 {
@@ -98,4 +102,98 @@ button {
 	padding: 1rem 1.5rem;
 	line-height: 1.33;
 }
+
+.content > h2 {
+	color: black;
+	font-weight: lighter;
+	font-size: 2.75rem;
+}
+
+.caption > h3 {
+	color: black;
+	font-weight: normal;
+}
+
+.cases .content {
+	padding: 6em;
+	padding-bottom: 5em;
+	padding-top: 3em;
+}
+
+.cases .devices {
+	width: 100%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    height: 4em;
+    padding:0;
+    text-align: center;
+}
+
+.cases .content .devices > li {
+	display: inline-block;
+	margin: 4em;
+	margin-top: 0;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+/*Footer*/
+
+.social {
+	text-align: center;
+}
+
+.social .content {
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 4em;
+}
+
+.social .content > h4 {
+	color: black;
+	text-align: center;
+	font-weight: normal;
+	padding-right: 1.25em;
+}
+
+.social .content .icons > li {
+	display: inline-block;
+	margin: 1.25rem 5px;
+	margin-top: 0.1rem;
+	border: 2px solid #eaebec;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	padding: 0.625rem 0;
+}
+
+.icons > li:hover{
+	cursor: pointer;
+}
+
+.social .content .icons {
+	padding: 0rem 1rem 0rem 0rem;
+}
+
+
+.social .content .copy {
+	font-weight: lighter;
+	font-size: 0.9em;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
+}
+
  
