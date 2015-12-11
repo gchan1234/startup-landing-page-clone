@@ -76,6 +76,8 @@ div {
 .content {
 	text-align: center;
 	padding-top: 13rem;
+	width: 970px;
+	margin: 0 auto;
 }
 
 .content > h1, h3 {
@@ -115,7 +117,6 @@ button {
 }
 
 .cases .content {
-	padding: 6em;
 	padding-bottom: 5em;
 	padding-top: 3em;
 }
@@ -131,12 +132,12 @@ button {
     text-align: center;
 }
 
-.cases .content .devices > li {
-	display: inline-block;
-	margin: 4em;
-	margin-top: 0;
-	text-align: center;
-	vertical-align: bottom;
+.cases .content .devices > li { 
+	display: inline-block; 
+	width: 33%; 
+	margin-top: 0; 
+	text-align: center; 
+	vertical-align: bottom; 
 }
 
 /*Footer*/
