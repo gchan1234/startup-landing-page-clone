@@ -124,8 +124,6 @@ button {
 .cases .devices {
 	width: 100%;
     display: inline-block;
-    /* styles to assist with debugging */
-    /*border: 1px solid black;*/
     box-sizing: border-box;
     height: 4em;
     padding:0;
@@ -134,10 +132,11 @@ button {
 
 .cases .content .devices > li { 
 	display: inline-block; 
-	width: 33%; 
+	width: 33%;
 	margin-top: 0; 
 	text-align: center; 
 	vertical-align: bottom; 
+	float: left;
 }
 
 /*Footer*/
