@@ -143,6 +143,7 @@ button {
 
 .social {
 	text-align: center;
+	margin-top: 5em;
 }
 
 .social .content {
@@ -156,6 +157,10 @@ button {
 	text-align: center;
 	font-weight: normal;
 	padding-right: 1.25em;
+}
+
+.social .content > hr {
+	color: gray;
 }
 
 .social .content .icons > li {
